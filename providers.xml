@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+  <provider name="openai">
+    <env_var>OPENAI_API_KEY</env_var>
+    <note>Uses OpenAI Chat Completions. Set model via --model (default gpt-4o-mini or gpt-4o)</note>
+  </provider>
+  <provider name="anthropic">
+    <env_var>ANTHROPIC_API_KEY</env_var>
+    <note>Uses Anthropic Claude style completion endpoint. Replace payload according to provider docs.</note>
+  </provider>
+  <provider name="google_gemini">
+    <env_var>GOOGLE_API_KEY</env_var>
+    <note>Use Google Generative API key / OAuth. Endpoint and model name configurable.</note>
+  </provider>
+  <provider name="ollama_local">
+    <env_var>OLLAMA_HOST</env_var>
+    <env_var>OLLAMA_MODEL</env_var>
+    <note>Local server (e.g., http://localhost:11434). No remote key required if running locally.</note>
+  </provider>
+  <provider name="offline">
+    <env_var></env_var>
+    <note>Offline fallback uses built-in ascii templates (no key required).</note>
+  </provider>
+</providers>

@@ -1,0 +1,19 @@
+{
+  "name": "cli-artgen",
+  "version": "3.0.0",
+  "description": "A versatile tool to generate ASCII art from text or images.",
+  "main": "bin/artgen.js",
+  "bin": {
+    "cli-artgen": "./bin/artgen.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "latest",
+    "pngjs": "latest",
+    "jpeg-js": "latest",
+    "axios": "latest",
+    "openai": "latest",
+    "dotenv": "latest",
+    "xml2js": "latest"
+  }
+}
