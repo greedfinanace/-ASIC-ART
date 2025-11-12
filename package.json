@@ -1,0 +1,17 @@
+{
+  "name": "cli-artgen",
+  "version": "1.0.0",
+  "description": "AI-powered ASCII/Pixel art generator for the terminal.",
+  "main": "bin/artgen.js",
+  "bin": {
+    "cli-artgen": "./bin/artgen.js"
+  },
+  "dependencies": {
+    "openai": "latest",
+    "chalk": "^4.1.2",
+    "commander": "latest",
+    "axios": "latest",
+    "dotenv": "latest",
+    "xml2js": "latest"
+  }
+}
