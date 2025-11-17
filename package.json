@@ -12,6 +12,8 @@
     "commander": "latest",
     "axios": "latest",
     "dotenv": "latest",
-    "xml2js": "latest"
+    "xml2js": "latest",
+    "pngjs": "latest",
+    "jpeg-js": "latest"
   }
 }
